@@ -1,0 +1,100 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url('../images/breakingbad.jpg');
+	background-size: 100%;
+	font-size: 16px;
+	line-height: 40px;
+	font-size: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: black;
+	font-weight: 600;
+}
+
+/*TITLE*/
+.container {
+	width: 100%;
+	max-width: 600px;
+	margin: 0 auto;
+	clear: both;
+}
+
+h1 {
+	text-align: center;
+	color: yellow;
+	background-color: black;
+	margin: 0 auto;
+	font-size: 40px;
+	padding: 20px;
+	margin: 0px 0 20px 0;
+}
+
+/*START + AGAIN BTN */
+.buttonStart {
+	width: 100%;
+	max-width: 150px;
+	margin: 0 auto;
+	clear: both;
+}
+
+button {
+	text-align: center;
+	color: yellow;
+	background-color: black;
+	margin: 0 auto;
+	font-size: 40px;
+	padding: 10px;
+}
+
+.buttonAgain{
+	width: 100%;
+	max-width: 280px;
+	margin: 0 auto;
+	clear: both;
+}
+
+/*ANS OPTION BOX */
+#ansOpt {
+	width: 100%;
+	max-width: 220px;
+	margin: 0 auto;
+	clear: both;
+}
+
+input {
+	width: 250px;
+	text-align: center;
+	color: green;
+	background-color: black;
+	margin: 0 auto;
+	font-size: 20px;
+	padding: 10px;
+	margin: 10px 0 10px 0;
+}
+
+/* Text size*/
+p {
+	margin: 0 auto; 
+	color: white;
+	font-size: 25px;
+	padding: 10px;
+	text-align: center;
+}
+
+button img {
+	width: 30px;
+	margin: 0 auto;
+	margin-right: 10px;
+}
+
+.center {
+	text-align: center;
+}
+
+/*JAVASCRIPT CLASS*/
+.changeColor {
+	background: yellow;
+	color:black;
+}
+

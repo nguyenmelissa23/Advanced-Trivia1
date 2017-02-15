@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Trivia Game</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+</head>
+<body>
+	<header class="container">
+		<h1>Breaking Bad Trivia!</h1>
+	</header>
+
+	<div class="buttonStart"> 
+		<button class="center" id="startBtn"><img src="assets/images/button.jpg">Start</button>
+	</div>
+
+	<div class="container">
+		<p id="timerText" class="center">Time Left: <span id="timer"></span></p>
+	</div>
+
+	<div class="container">
+		<p id="questionNum" class="center">Question:<span id="number"></span></p>
+	</div>
+
+	<div id="quiz" class="container">
+		<p id="question"></p>
+		<div id="ansOpt">
+			<input id="optA" type="button" value="0" name="answer"><br>
+			<input id="optB" type="button" value="1" name="answer"> <br>
+			<input id="optC" type="button" value="2" name="answer"> <br>
+			<input id="optD" type="button" value="3" name="answer"> <br>
+		</div> 
+	</div>
+
+	<div id="result" class="container">
+		<p id="resultText"></p>
+		<p id="corText"></p>
+		<p id="incorText"></p>
+		<p id="unansText"></p>
+	</div>
+	
+	<div class="buttonAgain"> 
+		<button class="center" id="againBtn"><img src="assets/images/button.jpg">Play Again?</button>
+	</div>
+
+	<script type="text/javascript" src="assets/javascript/app.js"></script>
+
+</body>
+</html>
